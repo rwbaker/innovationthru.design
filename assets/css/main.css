@@ -1,0 +1,186 @@
+/* YOU BASIC 
+----------------------------------------------------------------------------- */
+body {
+	color: #fff;
+	font: 1em Helvetica, sans-serif;
+	background: #2C404C;
+	background-image: url(../images/background.png);
+	background-size: contain;
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+
+
+
+
+/* GLOBAL LAYOUT
+----------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+/* TITLE 
+----------------------------------------------------------------------------- */
+.title {
+	background-image: url(../images/title.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+/* HEADSHOTS
+----------------------------------------------------------------------------- */
+.headshot-photo {
+	height: 250px;
+	width: 250px;
+	background-size: 250px 250px;
+	margin-top:5px;
+}
+
+.headshot:first-child {float:left;}
+.headshot:last-child {float:right;}
+
+
+#richard.headshot-photo {background-image: url(../images/richard@2x.png);}
+#ryan.headshot-photo {background-image: url(../images/ryan@2x.png);} 
+
+.name {
+	margin:5px 0 35px 0;
+	font-size:.8em;
+	text-transform: uppercase;
+	font-weight:bold;
+}
+
+
+
+
+
+
+/* RESPONSIVE: Small Screens (575px or less)
+----------------------------------------------------------------------------- */
+@media all and (max-width: 575px) {
+	#main {
+		margin:4em 1em 0 1em;
+	}
+
+	/* Title */
+	.title {
+		height:60px;
+	}
+	
+	/* Headshots */
+	.headshots {clear:both;}
+	.headshot-photo {
+		height: 155px;
+		width: 155px;
+		background-size: 155px 155px;
+	}
+	
+}
+
+
+
+
+
+/* RESPONSIVE: Medium Screens (575px - 768px)
+----------------------------------------------------------------------------- */
+@media all and (min-width: 576px) and (max-width: 767px) {
+	#main {
+		width:538px;
+		margin:4em auto 0 auto;
+	}
+	.title {
+		width: 538px;
+		height: 68px;
+		background-size: 538px 68px;
+	}
+	.headshots {
+		clear:both;
+	}
+	.headshot-photo {
+		height: 250px;
+		width: 250px;
+		background-size: 250px 250px;
+	}
+
+}
+
+
+
+/* RESPONSIVE: Medium-large (768px - 991px)
+----------------------------------------------------------------------------- */
+@media all and (min-width: 768px) and (max-width: 991px) {
+	#main {
+		margin:5em 5em 0 5em;
+		clear:both;
+	}
+	
+	/* Title */
+	.title {
+		width: 425px;
+		height: 68px;
+	}
+
+	/* Headshots */
+	.headshots {
+		width:425px; 
+		float:left;
+		clear:both;
+		margin-right:20px;
+	}
+	.headshot-photo {
+		height: 200px;
+		width: 200px;
+		background-size:200px 200px;
+	}
+	
+}
+
+
+
+
+/* RESPONSIVE: And the rest... (992px +)
+----------------------------------------------------------------------------- */
+@media all and (min-width: 992px) {
+	#main {
+		margin:5em 11em 0 11em;
+	}
+
+	/* Title */
+	.title {
+		width: 525px;
+		height: 68px;
+	}
+
+	/* Headshots */
+	.headshots {
+		width:525px; 
+		float:left;
+		clear:both;
+		margin-right:20px;
+	}
+	.headshot-photo {
+		height: 250px;
+		width: 250px;
+		background-size:250px 250px;
+	}
+}
+
+
+/* RESPOND TO ME
+----------------------------------------------------------------------------- */
